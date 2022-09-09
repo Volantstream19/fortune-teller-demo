@@ -22,7 +22,8 @@ header {
 
 main {
     padding: 20px;
-}
+    display: flex;
+    flex-direction: column;
 
 footer {
     position: sticky;
@@ -33,3 +34,23 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+
+#inputs-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+img {
+    margin: 10px
+    width: 30%;
+    border-radius: 50%;
+
+}
+
+.hide {
+    display: none;
+}
+
+
