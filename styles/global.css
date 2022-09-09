@@ -24,7 +24,7 @@ main {
     padding: 20px;
     display: flex;
     flex-direction: column;
-
+}
 footer {
     position: sticky;
     bottom: 0;
@@ -35,22 +35,26 @@ footer {
     background-color: var(--footer-background);
 }
 
-
 #inputs-container img {
     margin: 10px;
     width: 30%;
     border-radius: 50%;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
-
 
 .hide {
     display: none;
+    background-color: blue;
 }
 
-.gif {
+#gif {
     width: 50%;
     height: 20%;
+}
+
+#inputs-container img {
+    width: 10%;
+    height: 10%;
 }
