@@ -19,30 +19,42 @@
     <body>
         <header>
             <img src="/assets/html_css_js.png" />
-            <h1>Web App</h1>
+            <h1>Fate</h1>
         </header>
 
         <main>
             <div id="inputs-container">
                 <label for="question">
                     <input type="text" name="question" id="question" />
-                    <button class="ask-button">Ask the 8 ball</button>
-                    />
+                    <button class="ask">Should You do it?</button>
                 </label>
+                <div>
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgny8e4tk1a9iWNgNCYPuJDYFS_US-gf8ow&usqp=CAU"
+                        alt="8 ball"
+                    />
+                </div>
             </div>
-            <div>
-                <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgny8e4tk1a9iWNgNCYPuJDYFS_US-gf8ow&usqp=CAU"
-                alt="8 ball"
-            </div>
-
             <div id="fortune-container" class="hide">
                 <h3>The 8 Ball Says...</h3>
                 <p id="fortune"></p>
+                <button id="retry">Play Again Now!</button>
             </div>
         </main>
 
-        <footer>&copy;2022 Software Developer</footer>
+        <footer>
+            <iframe
+                src="https://giphy.com/embed/gX8F8kMRTx44M"
+                width="480"
+                height="373"
+                frameborder="0"
+                class="giphy-embed"
+                allowfullscreen
+            ></iframe>
+            <p id="gif">
+                <a href="https://giphy.com/gifs/john-lists-candy-gX8F8kMRTx44M">Pretty sick kid</a>
+            </p>
+        </footer>
 
         <script type="module" src="app.js"></script>
     </body>
