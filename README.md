@@ -25,3 +25,25 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+## html elements
+
+-   text input for the question: makes the user feel like there asking a question
+    \*button: trigger the fortune -- add an eventlistener.
+-   image for the 8 ball: aesthetics -- wrapped in div
+-   p or a div for the output/"fortune": displays the fortune -- setting the text content
+
+## state variable (data that changexz nover timee)
+
+\*selectedFortune
+
+\* events
+
+-   button click
+    *pick a random fortune
+    *display the fortune \* display a reset button
+
+reset button click
+
+-   display 8 ball and inputs
+-   remove fortune div
